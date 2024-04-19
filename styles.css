@@ -1,0 +1,46 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 800px; /* ajusta el ancho máximo del carrusel */
+}
+
+.slider ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider ul li {
+  flex: 0 0 100%; /* para asegurarse de que cada imagen ocupe todo el ancho del contenedor */
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* para darle bordes redondeados a las imágenes */
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5); /* fondo semi-transparente */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
