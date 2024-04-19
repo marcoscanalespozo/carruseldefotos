@@ -1,2 +1,1 @@
-# carruseldefotos
-fotos
+
